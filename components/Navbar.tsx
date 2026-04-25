@@ -7,11 +7,12 @@ type NavLink = {
 }
 
 const navLinks: NavLink[] = [
+  { label: 'Home', href: '#home' },
+  { label: 'Clients', href: '#clients' },
+  { label: 'Stats', href: '#stats' },
   { label: 'Solutions', href: '#solutions' },
   { label: 'Programs', href: '#programs' },
-  { label: 'Outcomes', href: '#outcomes' },
-  { label: 'Case Studies', href: '#casestudies' },
-  { label: 'Pricing', href: '#pricing' },
+  { label: 'Testimonials', href: '#testimonials' },
 ]
 
 export default function Navbar() {

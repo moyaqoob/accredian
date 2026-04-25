@@ -109,17 +109,12 @@ export function Footer() {
             <p className="text-sm text-slate-400 leading-relaxed mb-6 max-w-xs">
               Enterprise learning programs that create measurable skill transformation — at any scale.
             </p>
-            <div className="flex gap-3">
-              {['in', 'tw', 'yt'].map((s) => (
-                <a
-                  key={s}
-                  href="#"
-                  className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 flex items-center justify-center text-slate-400 hover:text-white transition-colors text-xs font-bold uppercase"
-                >
-                  {s}
-                </a>
-              ))}
+            <div className='space-y-3 text-white'>
+                <h1 className='text-xl text-gray-400'>Contact Us</h1>
+                <p><span className='text-semibold text-gray-400'>Email - </span>enterprise@accredian.com</p>
+                <p ><span className='text-semibold text-gray-400'>Address - </span> 4th Floor, 250, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana</p>
             </div>
+
           </div>
 
           {Object.entries(links).map(([group, items]) => (

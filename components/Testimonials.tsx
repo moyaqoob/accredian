@@ -62,7 +62,7 @@ export default function Testimonials() {
   }, [])
 
   return (
-    <section id="outcomes" className="py-28 bg-white overflow-hidden">
+    <section id="testimonials" className="py-28 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>

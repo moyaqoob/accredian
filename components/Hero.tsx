@@ -39,8 +39,8 @@ function AnimatedDashboard() {
             {[
               { name: 'Data Science & ML', progress: 87, color: 'bg-brand-500' },
               { name: 'Product Management', progress: 72, color: 'bg-violet-500' },
-              { name: 'Full Stack Development', progress: 65, color: 'bg-cyan-500' },
-              { name: 'Cloud & DevOps', progress: 54, color: 'bg-emerald-500' },
+              { name: 'Executive LeaderShip', progress: 65, color: 'bg-cyan-500' },
+              { name: 'Gen AI & MLops', progress: 54, color: 'bg-emerald-500' },
             ].map((item, i) => (
               <div key={item.name} className="flex items-center gap-3">
                 <p className="text-xs text-slate-600 w-44 shrink-0 truncate">{item.name}</p>
@@ -107,7 +107,7 @@ function AnimatedDashboard() {
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-16 gradient-mesh hero-grid overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center pt-16 gradient-mesh hero-grid overflow-hidden">
       <div className="absolute top-20 right-[15%] w-96 h-96 bg-brand-500/5 blob-animate rounded-full blur-3xl pointer-events-none"></div>
       <div
         className="absolute bottom-20 left-[10%] w-80 h-80 bg-violet-500/5 blob-animate rounded-full blur-3xl pointer-events-none"
@@ -123,12 +123,11 @@ export default function Hero() {
             </div>
 
             <h1 className="font-display text-5xl lg:text-6xl xl:text-7xl font-bold text-slate-900 leading-[1.08] tracking-tight mb-6 animate-[fadeUp_0.7s_ease_0.1s_both]">
-              Upskill your <span className="relative"><span className="text-brand-500">entire</span><svg className="absolute -bottom-1 left-0 w-full" viewBox="0 0 200 8" fill="none" preserveAspectRatio="none"><path d="M0 6 Q50 2 100 5 Q150 8 200 3" stroke="#0066ff" strokeWidth="2.5" strokeLinecap="round" fill="none" opacity="0.4" /></svg></span> workforce. <span className="font-display italic text-slate-400">At scale.</span>
+              Next gen <span className="relative"><span className="text-brand-500">Expertise</span><svg className="absolute -bottom-1 left-0 w-full" viewBox="0 0 200 8" fill="none" preserveAspectRatio="none"><path d="M0 6 Q50 2 100 5 Q150 8 200 3" stroke="#0066ff" strokeWidth="2.5" strokeLinecap="round" fill="none" opacity="0.4" /></svg></span> for your <span className="font-display italic text-brand-500">Enterprise.</span>
             </h1>
 
             <p className="text-lg lg:text-xl text-slate-500 leading-relaxed mb-10 max-w-lg animate-[fadeUp_0.7s_ease_0.2s_both]">
-              Accredian partners with enterprise teams to deliver structured learning programs — from data science to
-              leadership — with measurable outcomes and world-class faculty.
+              Cultivate High Performance Through Expert Learning
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-[fadeUp_0.7s_ease_0.3s_both]">

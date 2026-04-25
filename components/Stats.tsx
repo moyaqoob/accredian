@@ -68,7 +68,7 @@ export default function Stats() {
   }, [])
 
   return (
-    <section ref={ref} className="py-24 bg-slate-950 relative overflow-hidden noise">
+    <section id="stats" ref={ref} className="py-24 bg-slate-950 relative overflow-hidden noise">
       <div className="absolute inset-0 bg-gradient-to-br from-brand-900/40 via-slate-950 to-violet-950/30 pointer-events-none"></div>
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-brand-500/30 to-transparent"></div>
 
