@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Accredian Enterprise — Upskill Your Workforce',
   description:
     'Transforming enterprise teams with world-class learning programs and AI-powered education at scale.',
+    icons:{
+      icon:'./logo.svg'
+    }
 }
 
 type RootLayoutProps = {

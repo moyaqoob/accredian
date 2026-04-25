@@ -109,7 +109,7 @@ export function Footer() {
             <p className="text-sm text-slate-400 leading-relaxed mb-6 max-w-xs">
               Enterprise learning programs that create measurable skill transformation — at any scale.
             </p>
-            <div className='space-y-3 text-white'>
+            <div className='space-y-3 text-gray-300'>
                 <h1 className='text-xl text-gray-400'>Contact Us</h1>
                 <p><span className='text-semibold text-gray-400'>Email - </span>enterprise@accredian.com</p>
                 <p ><span className='text-semibold text-gray-400'>Address - </span> 4th Floor, 250, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana</p>
