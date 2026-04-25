@@ -47,7 +47,7 @@ export function CTA() {
               type="submit"
               className="btn-primary px-7 py-3.5 rounded-xl text-sm font-semibold text-white whitespace-nowrap"
             >
-              Book a Demo →
+              Enquire Now →
             </button>
           </form>
         ) : (

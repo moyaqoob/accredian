@@ -5,6 +5,7 @@ import Stats from '@/components/Stats'
 import Solutions from '@/components/Solutions'
 import Programs from '@/components/Programs'
 import Testimonials from '@/components/Testimonials'
+import Enquire from '@/components/Enquire'
 import { CTA, Footer } from '@/components/CTAFooter'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <CTA />
       <Footer />
+      <Enquire />
     </main>
   )
 }

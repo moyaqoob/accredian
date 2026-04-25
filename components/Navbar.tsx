@@ -59,7 +59,7 @@ export default function Navbar() {
               Sign in
             </a>
             <a href="#contact" className="btn-primary text-sm font-medium text-white px-5 py-2.5 rounded-lg">
-              Book a Demo
+              Enquire Now
             </a>
           </div>
 
@@ -75,7 +75,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div className={`lg:hidden overflow-hidden transition-all duration-300 ${mobileOpen ? 'max-h-80 pb-6' : 'max-h-0'}`}>
+        <div className={`lg:hidden overflow-hidden transition-all duration-300 ${mobileOpen ? 'max-h-90 pb-6' : 'max-h-0'}`}>
           <div className="flex flex-col gap-1 pt-2">
             {navLinks.map((link) => (
               <a
@@ -94,7 +94,7 @@ export default function Navbar() {
                 Sign in
               </a>
               <a href="#contact" className="flex-1 text-center btn-primary text-sm font-medium text-white px-4 py-2.5 rounded-lg">
-                Book Demo
+                Enquire Now
               </a>
             </div>
           </div>

@@ -96,3 +96,4 @@ const domainData: Record<DomainKey, any> = {
     ],
   },
 }
+
